@@ -1,0 +1,89 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Welcome to Bitsbyteweb, if you need help simply reply to this message, we are online and ready to help.",
+          "Hello, Thank you for visiting BitsbyteWeb.",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "How can i pay?"
+        ],
+        "responses": [
+          "We accept Crytocurrencies, Interac Etransfers and PayPal as payment."
+        ]
+      },
+      {
+        "tag": "price",
+        "patterns": [
+          "How do you charge?",
+          "What is you price?",
+          "You have pricing?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "You can find a breakdown of our pricing model at https:bitsbyteweb.com/pricing"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "You think youre funny?"
+        ],
+        "responses": [
+          "Funny, those road signs: 'Caution - Watch for children!' I mean, how dangerous can a child be? .",
+          "My dog used to chase people on a bike a lot. It got so bad, finally I had to take his bike away.",
+          "What do you get when you wake up on a workday and realize you ran out of coffee? :   A depresso.",
+          "Question on Facebook: What do you do with the white ball once you drank the mozzarella?"
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "Web Development?",
+          "What do you offer?",
+          "Web design?",
+          "Do you code?",
+          "Coding?",
+          "What service you offer?",
+          "What do you offer?"
+        ],
+        "responses": [
+            "We offer web development as a service, customizable chatbots and automation."
+        ]
+      }
+    ]
+  }
